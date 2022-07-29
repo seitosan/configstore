@@ -1,6 +1,0 @@
-dependencies:
-- name: configstore
-  repository: https://nospof.github.io/helm-charts/
-  version: 0.1.0
-digest: sha256:d48fa4bb65b24e400b975a927e2333d070b9e18faf6e97661e6448a8a4286163
-generated: "2022-07-29T16:09:41.28898+02:00"
