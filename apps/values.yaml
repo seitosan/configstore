@@ -7,3 +7,11 @@ apps:
     revision: "main"
     namespace: argocd
     server: https://kubernetes.default.svc
+  - name: tasse-bi-team
+    valueFiles: 
+      - values.yaml
+    path: "tenants/bi-team/tasse"
+    repoUrl: https://github.com/seitosan/configstore.git
+    revision: "main"
+    namespace: argocd
+    server: https://kubernetes.default.svc
