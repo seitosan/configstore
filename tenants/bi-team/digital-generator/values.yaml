@@ -10,4 +10,8 @@ PropertyList:
       namespace: engenerring
       items: 
         url_prefix: "/audit-digital-generator"
+    - name: poulet
+      namespace: engenerring
+      items: 
+        poulet: "tartampion"
         
