@@ -1,0 +1,5 @@
+PropertyList:
+    - name: logger-spider
+      namespace: engenerring
+      items:
+        enable-gcp: "yes"

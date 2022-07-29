@@ -1,0 +1,6 @@
+PropertyList:
+    - name: loggerref-api
+      namespace: engenerring
+      items:
+        log-level: INFO
+        
