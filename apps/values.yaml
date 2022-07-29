@@ -1,0 +1,9 @@
+apps:
+  - name: configstore
+    valueFiles: 
+      - values.yaml
+    path: configstore
+    repoUrl: https://github.com/seitosan/configstore.git
+    revision: main
+    namespace: argocd
+    server: https://kubernetes.default.svc
