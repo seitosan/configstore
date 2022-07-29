@@ -1,9 +1,9 @@
 apps:
-  - name: configstore
+  - name: configstore-bi-team
     valueFiles: 
       - values.yaml
-    path: configstore
+    path: "configstore/tenants/bi-team"
     repoUrl: https://github.com/seitosan/configstore.git
-    revision: main
+    revision: "main"
     namespace: argocd
     server: https://kubernetes.default.svc
