@@ -5,6 +5,7 @@ PropertyList:
         log-level: INFO
         format:  "%(asctime)s:%(name)s:%(levelname)s:%(message)s"
         enable-gcp: "yes"
+        poulet: "coincoin"
     - name: ingress
       namespace: engenerring
       items: 
