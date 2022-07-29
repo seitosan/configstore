@@ -1,0 +1,12 @@
+PropertyList:
+  - name: logger
+    namespace: engenerring
+    items:
+      log-level: INFO
+      format:  "%(asctime)s:%(name)s:%(levelname)s:%(message)s"
+      enable-gcp: "yes"
+  - name: ingress
+    namespace: engenerring
+    items: 
+      url_prefix: "/audit-digital-generator"
+      
