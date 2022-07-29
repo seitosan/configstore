@@ -2,7 +2,7 @@ apps:
   - name: configstore-bi-team
     valueFiles: 
       - values.yaml
-    path: "configstore/tenants/bi-team"
+    path: "tenants/bi-team"
     repoUrl: https://github.com/seitosan/configstore.git
     revision: "main"
     namespace: argocd
